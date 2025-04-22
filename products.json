@@ -1,0 +1,73 @@
+[
+    {
+      "titulo": "La amiga estupenda",
+      "autor": "Elena Ferrante",
+      "precio": 30.000,
+      "anio": 2011,
+      "genero": "Ficción contemporánea",
+      "img": ""
+    },
+    {
+      "titulo": "1984",
+      "autor": "George Orwell",
+      "precio": 20.000,
+      "anio": 1949,
+      "genero": "Distopía",
+      "img": ""
+
+    },
+    {
+      "titulo": "Orlando",
+      "autor": "Virginia Woolf",
+      "precio": 30.000,
+      "anio": 1928,
+      "genero": "Ficción histórica",
+      "img": ""
+
+    },
+    {
+      "titulo": "El hombre en busca de sentido",
+      "autor": "Viktor Frankl",
+      "precio": 20.000,
+      "anio": 1946,
+      "genero": "Psicología",
+      "img": ""
+
+    },
+    {
+      "titulo": "Los juegos del hambre",
+      "autor": "Suzanne Collins",
+      "precio": 30.000,
+      "anio": 2008,
+      "genero": "Distopía",
+      "img": ""
+
+    },
+    {
+      "titulo": "El psicoanalista",
+      "autor": "John Katzenbach",
+      "precio": 30.000,
+      "anio": 2002,
+      "genero": "Thriller psicológico",
+      "img": ""
+
+    },
+    {
+      "titulo": "Baumgartner",
+      "autor": "Paul Auster",
+      "precio": 30.000,
+      "anio": 2023,
+      "genero": "Ficción",
+      "img": ""
+
+    },
+    {
+      "titulo": "Ser feliz era esto",
+      "autor": "Eduardo Sacheri",
+      "precio": 15.000,
+      "anio": 2014,
+      "genero": "Ficción",
+      "img": ""
+
+    }
+  ]
