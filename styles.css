@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+body {
+  background-color: rgb(219, 217, 195);
+}
+* {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+h1,
+h2 {
+  margin: 1rem 0;
+}
+
+header {
+  height: 12vh;
+  background-color: #206770;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: -1rem;
+  z-index: 999;
+}
+
+input[type='search'],
+select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+main {
+  min-height: 80vh;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: transparent;
+}
+
+.card-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.card-subtitle {
+  font-size: 1.1rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text.precio {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+.card.carrito {
+  max-width: 300px;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.card.carrito img {
+  max-height: 120px;
+  object-fit: cover;
+}
+
+.card-title.carrito {
+  font-size: 1rem;
+}
+
+.card-subtitle.carrito {
+  font-size: 0.8rem;
+}
+
+img{
+    object-fit: cover; 
+    height: 100%
+
+}
+
+.cart {
+  background-color: #206770;
+  padding: 6px;
+  color: aliceblue;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 0;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.add {
+  margin-left: 0.5rem;
+  border: 0;
+  background-color: #206770;
+  border-radius: 5px;
+  color: aliceblue;
+  margin-top: 0.5rem;
+}
+
+.cart.vaciar {
+  background-color: #702020;
+}
+
+.cart.volver {
+  font-size: 1.5rem;
+}
+
+button:hover,
+.cart.vaciar:hover,
+.cart.volver:hover {
+  background-color: #4c4b4b;
+}
+
+.finalizado {
+  margin: 2rem 0;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+footer {
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: #206770;
+  color: aliceblue;
+  padding-right: 2rem;
+}
